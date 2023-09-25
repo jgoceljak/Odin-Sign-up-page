@@ -1,7 +1,7 @@
 
 body {
     display: flex;
-    background-color: aquamarine;
+    background-color: #cccccc;
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     min-width: 100vw;
@@ -12,7 +12,7 @@ body {
     flex: auto;
     display: flex;
     flex-direction: column;
-    flex-grow: 3;
+    flex-grow: 2;
     min-height: 100%;
     background-color: antiquewhite;
     align-items: center;
@@ -27,6 +27,7 @@ body {
     display: flex;
     align-items: center;
     padding-left: 5%;
+    font-size: 30px;
 
 }
 
@@ -37,6 +38,7 @@ body {
     display: flex;
     align-items: center;
     padding-left: 5%;
+    color: rgb(63, 63, 63)
 }
 
 .form {
@@ -63,22 +65,37 @@ body {
 
 .logodiv {
     flex: auto;
+    background-image: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1862&q=80");
+    background-size: cover;
     display: flex;
     flex-direction: column;
     flex-grow: 1.5;
     min-height: 100%;
-    background-color: green;
     align-items: center;
 }
 
 .logo {
     background-color: black;
+    opacity: 50%;
     align-items: center;
     justify-content: center;
     color: white;
-    margin-top: 45%;
+    margin-top: 40%;
     display: flex;
     min-width: 100%;
-    min-height: 10%
+    min-height: 15%
 
+}
+
+input {
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+  }
+
+label {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
